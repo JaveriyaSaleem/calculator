@@ -2,10 +2,13 @@
     background-color: #4C4D6B;
 }
 .light-purple{
-    background-color: #8E83CF;
+    background-color: #8E83CF  !important;
 }
 .medium-purple{
-    background-color: #d8d3f1;
+    background-color: #D9D6E9  !important;
+}
+.very-light-purple{
+    background-color: #EDEEF3 !important;
 }
 .dark-fonts{
     color: #4C4D6B;
@@ -15,5 +18,9 @@ button{
     border: hidden;
     padding: 19px 15px !important;
     border-radius: 90px !important;
+    
+}
+.font{
+    font-family: 'Times New Roman', Times, serif !important;
     
 }
