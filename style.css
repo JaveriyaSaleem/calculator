@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(233, 233, 233) !important;
+}
 .dark-purple{
     background-color: #4C4D6B;
 }
@@ -6,6 +9,24 @@
 }
 .medium-purple{
     background-color: #D9D6E9  !important;
+}
+.medium-purple:hover{
+    background-color: #8E83CF !important;
+    color: white !important;
+}
+.border-main{
+    border-color: #8E83CF !important;
+    border-width: 30px !important;
+}
+input{
+    border-color: transparent;
+    background-color: #8E83CF;
+    color: white !important;
+    font-size: 20px;
+}
+input:hover{
+    border: hidden !important;
+   
 }
 .very-light-purple{
     background-color: #EDEEF3 !important;
@@ -20,7 +41,13 @@ button{
     border-radius: 90px !important;
     
 }
+
 .font{
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     
+}
+.zero-btn{
+    padding: 20px 70px !important;
+    margin-right: 30px !important;
+    text-align: left !important;
 }
