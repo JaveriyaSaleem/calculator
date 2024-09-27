@@ -55,3 +55,10 @@ function operator(key) {
         inputField.value = newOperator;
     }
 }
+
+setInterval (function(){
+    var getTime =  new Date()
+    document.getElementById('time').innerHTML = getTime.toLocaleTimeString()
+},1000)
+
+
