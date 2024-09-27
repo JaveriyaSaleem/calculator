@@ -10,7 +10,7 @@
 
 body
 {
-    background: #e8eaec !important;
+    background: #428cf4 !important;
 }
 .main-div{
     background: #e8eaec;
@@ -28,8 +28,15 @@ body
     border: 3px solid black;
     
 }
+
 .btn-border-shadow {
     border: 2px solid black !important;
     box-shadow: 3px 3px black !important;
     background-color: white;
+}
+.btn-border-shadow:hover {
+    border: 2px solid black !important;
+    box-shadow: 4px 4px black !important;
+  
+   
 }
